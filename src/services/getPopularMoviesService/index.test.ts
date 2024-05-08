@@ -1,8 +1,7 @@
 import { getPopularMoviesService } from "./index";
-import { IPopularMoviesResult } from "./types";
 
 describe("getPopularMoviesService", () => {
-  let result: IPopularMoviesResult[];
+  let result: IPopularMovies[];
 
   beforeAll(async () => {
     result = await getPopularMoviesService();
