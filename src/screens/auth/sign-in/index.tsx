@@ -126,6 +126,8 @@ export const SignInAuthScreen: React.FC = () => {
                 onBlur={onBlur}
                 onChangeText={onChange}
                 value={value}
+                returnKeyType="go"
+                onSubmitEditing={onSubmit}
               />
             )}
             name="password"

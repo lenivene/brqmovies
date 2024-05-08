@@ -5,7 +5,7 @@ export const Container = styled.View`
   background-color: ${({ theme }) => theme.colors.neutral};
   justify-content: space-between;
   flex-direction: row;
-  padding: ${Platform.OS === "ios" ? 74 : 20}px 16px 16px;
+  padding: ${Platform.OS === "ios" ? 74 : 54}px 16px 16px;
 `;
 
 export const Title = styled.Text`
@@ -17,7 +17,7 @@ export const Title = styled.Text`
 
 export const ButtonMenu = styled.TouchableOpacity<{ isOpen: boolean }>`
   background-color: ${({ theme, isOpen }) => isOpen ? theme.colors?.primary : 'transparent'};
-  border-radius: 100%;
+  border-radius: 100px;
   height: 24px;
   width: 24px;
 

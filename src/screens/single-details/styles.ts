@@ -26,7 +26,7 @@ export const ButtonHeader = styled.TouchableOpacity<{ color?: string }>`
   height: 34px;
   width: 34px;
 
-  border-radius: 100%;
+  border-radius: 100px;
 
   justify-content: center;
   flex-direction: column;
